@@ -28,72 +28,115 @@ DRM
 
 ## 3. Project Title
 
-Online Food Ordering System
+Food Delivery Data Analysis
+
 
 ---
 
-## 4. Problem Statement
+## 4. Dataset Information
 
-Traditional food ordering methods are time-consuming and prone to errors. 
-Customers often face long waiting times and order mistakes. 
-This system provides an online platform where customers can place orders easily, 
-restaurants can manage requests efficiently, and administrators can control the system.
+- **Dataset Title:** Online Food Ordering System Dataset  
+- **Source:** Kaggle (or insert your dataset link here)  
+- **Description:**  
+  This dataset contains information about customer orders made through an online food delivery platform. It includes customer details, restaurant name, food category, order date and time, delivery time, payment method, order amount, and customer ratings.  
+- **Why this dataset was selected:**  
+  The online food delivery industry is growing rapidly. Analyzing this dataset helps understand customer behavior, improve delivery performance, and increase business revenue.  
+- **Size of Dataset:**  
+  (Example: 1000 rows × 12 columns — update with your real dataset size)
 
 ---
 
 ## 5. Project Objectives
 
-- To simplify the food ordering process
-- To reduce ordering mistakes
-- To improve restaurant order management
-- To save time for customers and staff
+### Problem Statement
+To analyze customer ordering behavior and identify patterns that can help improve service quality and revenue.
+
+### Key Questions
+- Which food category is the most popular?
+- What are the peak ordering hours?
+- Which payment method is most frequently used?
+- Does delivery time affect customer ratings?
+- Which restaurants generate the highest revenue?
+
+### Expected Outcomes
+- Identify sales trends
+- Understand customer preferences
+- Improve delivery efficiency
+- Increase customer satisfaction
 
 ---
 
-## 6. Scope of the System
+## 6. Data Preparation (Using Pandas)
 
-The system will include:
+### Steps:
 
-- User registration and login
-- Browsing restaurant menus
-- Placing food orders
-- Order confirmation by restaurants
-- Order tracking
-- Admin management
+- Load dataset using `pandas`
+- Check missing values
+- Remove duplicates
+- Convert date columns to datetime format
+- Create new features:
+  - Order Month
+  - Order Hour
+  - Delivery Duration
+  - Total Revenue
 
----
 
-## 7. Expected Users
-
-- Customer
-- Restaurant Staff
-- Admin
 
 ---
 
-## 8. Project Timeline
+## 7. Data Analysis Tasks
 
-| Week | Activity |
-|------|----------|
-| Week 1 | Project planning |
-| Week 2 | Use Case & BPMN |
-| Week 3 | System analysis |
-| Week 4 | ERD design |
-| Week 5 | Final report & presentation |
+### Analysis Performed
 
----
+- Group by food category → total sales
+- Group by restaurant → average rating
+- Payment method usage analysis
+- Monthly revenue trend
+- Delivery time vs customer rating analysis
 
-## 9. Diagrams
-
-- Use Case Diagram
-- BPMN Diagram
-- ERD Diagram
 
 ---
 
-## 10. Conclusion
+## 8. Key Findings and Insights
 
-The Online Food Ordering System improves efficiency and reduces manual errors. 
-It provides a structured platform for managing online food orders.
+- Most orders occur in the evening (6 PM – 9 PM).
+- Fast food is the highest revenue category.
+- Online payments are more popular than cash.
+- Longer delivery times reduce customer ratings.
+- High-rated restaurants receive more repeat orders.
+
+---
+
+## 9. Project Timeline (5 Weeks)
+
+| Week | Activities |
+|------|------------|
+| Week 1 | Dataset search and project planning |
+| Week 2 | Data cleaning and preparation |
+| Week 3 | Data analysis and visualization |
+| Week 4 | Advanced analysis and insights |
+| Week 5 | Report writing and presentation preparation |
+
+---
+
+## 10. Outcome of the Project
+
+Through this project, students learned:
+
+- Data cleaning using Pandas
+- Exploratory Data Analysis (EDA)
+- Data visualization
+- Business insight generation
+- Working with real-world datasets
+
+---
+
+## 11. Conclusion
+
+This project analyzed an online food ordering system to understand customer behavior, sales performance, and delivery efficiency. The analysis revealed clear patterns in ordering trends, popular food categories, and preferred payment methods.  
+
+The results show that delivery time significantly affects customer satisfaction. Businesses can use these insights to improve service quality, optimize delivery operations, and increase overall revenue.  
+
+Overall, this project demonstrates how data analysis helps businesses make informed decisions and remain competitive in the growing online food delivery industry.
 
 
