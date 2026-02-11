@@ -1,5 +1,5 @@
 # Project-plan
-# 🍔 Online Food Ordering System
+#  Online Food Ordering System
 
 ## System Analysis and Design Project
 
@@ -7,7 +7,7 @@
 
 ## 1. Course Name
 
-System Analysis and Design
+Data Analytics & Machine Learning
 
 ---
 
@@ -20,9 +20,9 @@ DRM
 
 | Name | Student ID | Group | Role |
 |------|------------|--------|------|
-| Leader Name | XXXXX | XX | Project Coordinator |
-| Dilaram Kim | XXXXX | XX | Diagram Designer |
-| Member 3 | XXXXX | XX | System Analyst |
+| Baxtiyorova Ruxshona | 202490081 | I24A | Leader |
+| Usenadinova Dilaram | 202490349 | I24E-1 | Diagram Designer |
+| Ergasheva Madinabonu | 202490107 | I24B | System Analyst |
 
 ---
 
